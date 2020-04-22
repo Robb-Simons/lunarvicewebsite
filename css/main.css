@@ -1,0 +1,72 @@
+/*Background Styles*/
+
+body {
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(79, 145, 89), transparent), rgb(15, 15, 15);
+}
+
+
+/*jumbotron*/
+
+.jumbotron {
+    height: 40rem;
+    background: url('../img/stockjumbo.jpg');
+}
+
+
+/*content wrapper / styles */
+
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCont {
+    width: 80%;
+    border: 1px solid green;
+    background: rgb(54, 54, 54);
+    text-align: center;
+}
+
+.mainCont h1 {
+    color: rgb(75, 150, 74);
+}
+
+.mainCont p {
+    color: white;
+}
+
+
+/*Navigator Stylesheet*/
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 25, 25);
+}
+
+.navLi {
+    float: left;
+}
+
+.navLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navLi a:hover {
+    background-color: #111;
+}
+
+
+/* Changes color for active page */
+
+#active {
+    background-color: rgb(75, 150, 74);
+}
