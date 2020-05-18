@@ -74,33 +74,35 @@ h1 {
 }
 
 .hrline {
-    width: 80%;
+    width: 90%;
     color: #414040;
 }
 
 
-/* shop code */
+/* Shop section */
 
-.shopCont {
+.cardWrap {
+    width: 90%;
+    height: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    padding: 3rem;
+    margin: auto;
     text-align: center;
     font-family: arial;
+    float: left;
 }
 
 .price {
     color: grey;
-    font-size: 18px;
+    font-size: 22px;
 }
 
-.card .shopbtn {
+.card button {
     border: none;
     outline: 0;
     padding: 12px;
